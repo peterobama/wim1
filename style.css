@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+obenS {
+    font-family: monospace;
+    background-color: #E52521;
+    color: #FFFFFF;
+    font-size: 18pt;
+    padding: 10px;
+}
