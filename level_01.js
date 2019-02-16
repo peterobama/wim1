@@ -53,7 +53,7 @@ if (mouseX<12 && mouseY>250 && mouseY<375){
        }
        
  
-  if (((mouseIsPressed) && (mouseX<2290)){
+  if ((mouseIsPressed) && (mouseX<2290)){
     image(notreffa, mouseX-120, mouseY-50);
  		rect(0,0,3196,631);  
    	fill(255,0,0,50);
@@ -73,7 +73,8 @@ if (mouseX<12 && mouseY>250 && mouseY<375){
  		rect(0,0,3196,631);  
  	fill(255,0,0,50);
   }
-	
+
+       }
 
 function hintergrund() {
   image(fuck,0,0);
