@@ -54,24 +54,24 @@ if (mouseX<12 && mouseY>250 && mouseY<375){
        
  
   if ((mouseIsPressed) && (mouseX<2290)){
-    image(notreffa, mouseX-120, mouseY-50);
+    image(notreffa, mouseX-60, mouseY-50);
  		rect(0,0,3196,631);  
-   	fill(255,0,0,50);
+   //	fill(255,0,0,50);
   }
   if ((mouseIsPressed) && (mouseX>2310)){
-    image(notreffa, mouseX-120, mouseY-50);
+    image(notreffa, mouseX-60, mouseY-50);
  		rect(0,0,3196,631);  
-   	fill(255,0,0,50);
+   //	fill(255,0,0,50);
   }
     if ((mouseIsPressed) && (mouseY<160)){
-    image(notreffa, mouseX-120, mouseY-50);
+    image(notreffa, mouseX-60, mouseY-50);
  		rect(0,0,3196,631);  
-   	fill(255,0,0,50);
+   //	fill(255,0,0,50);
   }
       if ((mouseIsPressed) && (mouseY>200)){
-    image(notreffa, mouseX-120, mouseY-50);
+    image(notreffa, mouseX-60, mouseY-50);
  		rect(0,0,3196,631);  
-   	fill(255,0,0,50);
+  // 	fill(255,0,0,50);
   }
 
        }
